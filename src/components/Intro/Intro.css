@@ -1,0 +1,72 @@
+#intro {
+  /* height: clac(100vh - 4rem); */
+  height: 100vh;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.Bg {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
+}
+.introText {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.introContent {
+  height: 120vh;
+  width: 100vw;
+  padding: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.introPara {
+  font-size: medium;
+  font-weight: 110;
+  margin-top: 20px;
+  letter-spacing: 3;
+}
+.btn {
+  background: white !important;
+  margin: 2rem 0;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Hire {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+.introName {
+  color: yellow;
+}
+@media screen and (max-width: 840px) {
+  .Bg {
+    right: -10vw;
+  }
+  .introContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bg {
+    right: -20vw;
+  }
+}

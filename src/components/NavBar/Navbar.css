@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+  position: sticky;
+  height: 75px;
+}
+
+.introText {
+  font-size: 2rem !important;
+  font-weight: 150;
+}
+
+.introName {
+  font-weight: bold;
+}
+
+.desktopMenu {
+  display: flex;
+}
+
+.desktopMenuListItem {
+  margin: 1rem;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.desktopMenuListItem:hover {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
